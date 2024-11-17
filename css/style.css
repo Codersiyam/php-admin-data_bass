@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+.sign_up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+.form_group{
+    width: 90%;
+    max-width: 500px;
+    min-width: 350px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 40px;
+    text-align: center;
+}
+.logo{
+    margin: 30px 0px;
+    color: #fff;
+    background: green;
+    padding: 10px;
+}
+.input_field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.form_info{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+i{
+    margin-left: 15px;
+    color: #999;
+}
+.form_btn{
+    background: green;
+    color: #fff;
+    width: 50%;
+    border: 0;
+    height: 40px;
+    outline: 0;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.input_group{
+    height: 349px;
+}
+.form_link{
+    margin-top: 15px;
+    color: #999;
+}
+.link{
+    color: green;
+    text-decoration: none;
+}
+.error::placeholder{
+    color: red !important;
+}
